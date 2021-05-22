@@ -59,6 +59,9 @@ function generatePassword() {
   }
   console.log(bigArray)
 
+  const passwordText  = (upperCaseletters, LowerCaseLetters, specialChar, numbersChar)
+  const generatePassword = bigArray[Math.floor(Math.random() * passwordLength)];
+  console.log(generatePassword, passwordLength[generatePassword]);
 
   return password
 }
