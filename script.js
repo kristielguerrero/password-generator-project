@@ -11,8 +11,9 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-
 }
+
+
 
 function generatePassword() {
   var bigArray = []
@@ -59,17 +60,18 @@ function generatePassword() {
   }
   console.log(bigArray)
 
-  const passwordText  = (upperCaseletters, LowerCaseLetters, specialChar, numbersChar)
-  const generatePassword = bigArray[Math.floor(Math.random() * passwordLength)];
-  console.log(generatePassword, passwordLength[generatePassword]);
+  // const passwordText  = (upperCaseletters, LowerCaseLetters, specialChar, numbersChar)
+  // const generatePassword = bigArray[Math.floor(Math.random() * passwordLength)];
+  // console.log(generatePassword, passwordLength[generatePassword]);
+
+  var index = Math.floor(Math.random() * bigArray)
+  console.log(Math.floor(Math.random() * bigArray))
 
   return password
+  
+for (i =  8; i < 128; i++){
+
 }
-  // var isUpperCase = confirm("Do you want it to contain uppercase letters?")
 
-  // }
-  // return password.join('');
-
-
-// Add event listener to generate button
+}
 generateBtn.addEventListener("click", writePassword);
