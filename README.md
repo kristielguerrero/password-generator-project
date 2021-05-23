@@ -9,3 +9,5 @@ Created the alert boxes to ensure password lenght is between 8-128 characters
 Created the confirm boxes on upper, lower, special characters and numbers boxes
 
 Added the Math.floor and Math.random to generate a random password and console.log this
+
+Link to deployed application: https://kristielguerrero.github.io/password-generator-project/ 
